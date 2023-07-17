@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #ff5f6d;
+    background: -webkit-linear-gradient(to right, #ff5f6d, #89abdb);
+    background: linear-gradient(to top, #508bff, #89abdb);
+    min-height: 100vh;
+  }
+
+  .product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 800px;
+    flex-wrap: wrap; /* Agregamos flex-wrap para que los productos se ajusten automáticamente */
+  }
+
+  .product-box {
+    border: 2px solid #7895bd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px; /* Cambiamos el ancho para que los productos se ajusten en una columna */
+    box-sizing: border-box;
+    margin: 10px; /* Agregamos margen para separar los productos */
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura de la página según tus necesidades */
+  }
+  
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #7895bd;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-height: 470px; /* Ajusta la altura máxima de la imagen según tus necesidades */
+    max-width: 150px; /* Ajusta el ancho máximo de la imagen según tus necesidades */
+    object-fit: contain;
+    margin-bottom: 10px; /* Agrega un espacio entre cada producto */
+  }
+  
+  
+
+  .product-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .product-description {
+    margin-top: 10px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  footer {
+    background-color: #4881f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .button-container {
+    display: inline-block;
+    border: 2px solid #7895bd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .instagram-button {
+    display: flex;
+    align-items: center;
+    background-color: #7895bd;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  .instagram-button i {
+    margin-right: 5px;
+  }

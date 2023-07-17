@@ -1,0 +1,111 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #ff5f6d;
+  background: -webkit-linear-gradient(to right, #ff5f6d, #89abdb);
+  background: linear-gradient(to top, #508bff, #89abdb);
+  min-height: 100vh;
+}
+
+
+
+h1 {
+    color: #333333;
+    margin-top: 50px;
+  }
+
+  p {
+    color: #666666;
+    margin-bottom: 20px;
+  }
+
+nav{
+    background-color: #89abdb;
+}
+
+
+
+.presentacion {
+  border: 15px solid #87a8d5;
+  background-color: #7895bd;
+  color: black;
+  border-radius: 30px;
+  padding: 5px;
+  width: 1000px;
+  height: 650px;
+  margin-bottom: 20px;
+}
+
+.evento {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-link {
+  display: inline-block;
+  max-width: 550px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+  bottom: 650px;
+  left: 1000px;
+}
+
+.image-link2 {
+  display: inline-block;
+  max-width: 496px;
+  height: 300px;
+
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 20px;
+  position: relative;
+  bottom: 340px;
+  right: 155px;
+}
+
+.image-link img {
+  width: 100%;
+  height: 330px;
+}
+
+.image-link2 img {
+  width: 100%;
+  height: 300px;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Ajusta el ancho máximo según tus necesidades */
+  }
+
+  footer {
+    background-color: #4881f3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  .button-container {
+    display: inline-block;
+    border: 2px solid #7895bd;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .instagram-button {
+    display: flex;
+    align-items: center;
+    background-color: #4881f3;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  .instagram-button i {
+    margin-right: 5px;
+  }
